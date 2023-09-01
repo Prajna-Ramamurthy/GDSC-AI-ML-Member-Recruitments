@@ -24,7 +24,9 @@ This dataset contains environmental data collected from NASA’s data access vie
 The data is split into two groups:
 
 Training set (train.csv)
+
 Test set (test.csv)
+
 The training set should be used to build your machine learning models. For the training set, we provide the values for each feature and the output variables (T2M, QV2M and VACATION_RATE). You are free to perform any kind of data preprocessing, feature selection, and apply relevant algorithms to train and improve your model’s performance.
 The test set should be used to evaluate your model's performance on unseen data. For the test set, we do not provide the values for the target variables. It is your job to forecast these values.
 However, you are required to submit only the forecasted values for VACATION_RATE.
@@ -34,17 +36,27 @@ The VACATION_RATE is a floating point value between 1 and 100. The sample submis
 In your submission.csv file you should have 2 columns ID (700 values from 1440 to 2139) and VACATION_RATE only. You can see this clearly in the sample_solution.csv
 
 Files
-train.csv - the training set
+train.csv- the training set
+
 test.csv - the test set
+
 sample_solution.csv - a sample submission file in the correct format
 
 DATA DICTIONARY
 T2M - Temperature at 2 Metres (°C) - Target Variable #1
+
 QV2M - Specific Humidity at 2 Meters (g/kg) - Target Variable #2
+
 WS10M - Wind Speed at 10 Meters (m/s)	
+
 PS - Surface Pressure (kPa)	
+
 T2M_MAX - Maximum temperature at 2 metres above ground level (°C)	
+
 T2M_MIN - Minimum temperature at 2 metres above ground level (°C)	
+
 T2M_RANGE - Temperature range at 2 metres above ground level (°C) - This is the difference between the maximum and minimum temperatures over a given period of time
+
 RH2M - Relative Humidity at 2 Meters (%)	
+
 VACATION_RATE - Target Variable #3. It is affected by all the other features in the dataset
