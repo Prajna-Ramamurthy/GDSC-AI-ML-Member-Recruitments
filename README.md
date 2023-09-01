@@ -39,13 +39,12 @@ test.csv - the test set
 sample_solution.csv - a sample submission file in the correct format
 
 DATA DICTIONARY
-Variable	        Definition	                                                Explanation
-T2M	              Temperature at 2 Metres (°C)	                              Target Variable #1
-QV2M	            Specific Humidity at 2 Meters (g/kg)	                      Target Variable #2
-WS10M	            Wind Speed at 10 Meters (m/s)	
-PS	              Surface Pressure (kPa)	
-T2M_MAX	          Maximum temperature at 2 metres above ground level (°C)	
-T2M_MIN	          Minimum temperature at 2 metres above ground level (°C)	
-T2M_RANGE	        Temperature range at 2 metres above ground level (°C)	      This is the difference between the maximum and minimum temperatures over a given period of time
-RH2M	            Relative Humidity at 2 Meters (%)	
-VACATION_RATE	    VACATION_RATE	                                              Target Variable #3. It is affected by all the other features in the dataset
+T2M - Temperature at 2 Metres (°C) - Target Variable #1
+QV2M - Specific Humidity at 2 Meters (g/kg) - Target Variable #2
+WS10M - Wind Speed at 10 Meters (m/s)	
+PS - Surface Pressure (kPa)	
+T2M_MAX - Maximum temperature at 2 metres above ground level (°C)	
+T2M_MIN - Minimum temperature at 2 metres above ground level (°C)	
+T2M_RANGE - Temperature range at 2 metres above ground level (°C) - This is the difference between the maximum and minimum temperatures over a given period of time
+RH2M - Relative Humidity at 2 Meters (%)	
+VACATION_RATE - Target Variable #3. It is affected by all the other features in the dataset
